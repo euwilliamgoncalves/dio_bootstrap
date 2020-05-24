@@ -1,0 +1,30 @@
+.navbar{
+    background-color: rgb(40, 40, 40);
+}
+
+.customcontainer {
+    background-color: rgb(80, 80, 80);
+    padding: 25px;
+}
+
+.imgcont {
+    align: center;
+    width:80%;
+}
+
+.h2cont {
+    color: rgb(222,222,222);
+    font-size: 32px;
+    padding-top: 20px;
+}
+
+.pcont {
+    color: rgb(222,222,222);
+    font-size: 18px;
+    text-align: justify;
+    padding-top: 20px;
+}
+
+.col-lg-8 {
+    padding-right: 50px;
+}
