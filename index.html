@@ -8,7 +8,7 @@
         <link rel="shortcut icon" href="img/bootstrap.png" type="image/x-icon">
     </head>
     <body>
-        <nav class="navbar navbar-expand navbar-dark align-items-start">
+        <nav id="topo" class="navbar navbar-expand navbar-dark align-items-start">
             <a class="navbar-brand" href="#topo"><img src="img/logo.png"></a>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav">
@@ -19,13 +19,20 @@
                 </ul>
             </div>
         </nav>
-
-        <header id="topo" class="container-fluid header">
-
-        </header>
         
         <section id="sobre">
-            
+            <div class="container customcontainer fill">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 colleft">
+                        <h2 class="h2cont">"Porque fiz essa página?"</h3>
+                        <p class="pcont">Essa página foi criada para exercitar os conhecimentos adquiridos no curso de Bootstrap da Digital Innovation One, ministrado pelo professor Rafael Galleani. Nesse curso, foram abordados os principais recursos desse framework, além de sua aplicação prática criando um site. A partir disso, criei essa página, buscando apoio na documentação oficial do Bootstrap, para alguns pequenos ajustes, e acrescentando duas fontes do repositório da Google, para customizar a aparência da página.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+                        <img src="img/logodio.png" class="imgcont">
+                        <img src="img/cursobs.png" class="imgcont" style="width:60%">
+                    </div>
+                </div>
+            </div>            
         </section>
 
         <section id="bootstrap">
@@ -34,12 +41,28 @@
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
                         <img src="img/bootstrap.png" class="imgcont">
                     </div>
-                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                        <h2 class="h2cont">Crie</h3>
-                        <p class="pcont">Crie e personalize rapidamente sites responsivos para dispositivos móveis com o Bootstrap, o kit de ferramentas de código-fonte aberto mais popular do mundo, com variáveis ​​e mixins Sass, sistema de grade responsivo, componentes pré-criados extensos e plug-ins JavaScript poderosos.</p>
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 colright">
+                        <h2 class="h2cont">"Fatiou, ajustou"</h3>
+                        <p class="pcont">O Bootstrap é um framework para desenvolvimento front-end de páginas web, focado na responsividade do projeto. Utilizando grids, a página pode se adaptar a qualquer tela, ficando mais legível e adequada a cada dispositivo. É um dos recursos mais utilizados para desenvolvimento web, devido a sua flexibilidade e as inúmeras possibilidades de aplicação.</p>
                     </div>
                 </div>
             </div>
         </section>
+
+        <footer class="rodape">
+            <div class="container-fluid rodape">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                        <p class="pcont text-center">Desenvolvido por William Gonçalves<br>
+                            <a href="https://github.com/euwilliamgoncalves" target="_blank"><span class="icon github"></span></a>
+                            <a href="https://instagram.com/eu_williamgoncalves" target="_blank"><span class="icon instagram"></a>
+                            <a href="https://www.linkedin.com/in/euwilliamgoncalves/" target="_blank"><span class="icon linkedin"></a>
+                            <a href="https://wa.me/5521965443935" target="_blank"><span class="icon whatsapp"></a>
+                            <a href="https://discord.com/channels/euwilliamgoncalves" target="_blank"><span class="icon discord"></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
