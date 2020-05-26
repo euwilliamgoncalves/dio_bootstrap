@@ -1,2 +1,2 @@
 # dio_bootstrap
-Aula de Bootstrap do bootcamp Fullstack da Digital Innovation One
+Página criada para exercitar os conhecimentos adquiridos no curso de Bootstrap da Digital Innovation One, ministrado pelo professor Rafael Galleani. Nesse curso, foram abordados os principais recursos desse framework, além de sua aplicação prática criando um site. A partir disso, criei essa página, buscando apoio na documentação oficial do Bootstrap, para alguns pequenos ajustes, e acrescentando duas fontes do repositório da Google, para customizar a aparência da página.
